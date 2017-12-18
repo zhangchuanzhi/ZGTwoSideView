@@ -13,6 +13,7 @@
 		23C0161C1FE7AC9300BD7A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C0161B1FE7AC9300BD7A98 /* Assets.xcassets */; };
 		23C0161F1FE7AC9300BD7A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C0161D1FE7AC9300BD7A98 /* LaunchScreen.storyboard */; };
 		23C016221FE7AC9300BD7A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C016211FE7AC9300BD7A98 /* main.m */; };
+		23C0162B1FE7ACF700BD7A98 /* ZGTwoSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C0162A1FE7ACF700BD7A98 /* ZGTwoSideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		23C0161E1FE7AC9300BD7A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C016201FE7AC9300BD7A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23C016211FE7AC9300BD7A98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C016291FE7ACF700BD7A98 /* ZGTwoSideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGTwoSideView.h; sourceTree = "<group>"; };
+		23C0162A1FE7ACF700BD7A98 /* ZGTwoSideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGTwoSideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		23C016111FE7AC9300BD7A98 /* ZGTwoSideView */ = {
 			isa = PBXGroup;
 			children = (
+				23C016281FE7ACD800BD7A98 /* SideView */,
 				23C016121FE7AC9300BD7A98 /* AppDelegate.h */,
 				23C016131FE7AC9300BD7A98 /* AppDelegate.m */,
 				23C016151FE7AC9300BD7A98 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				23C016211FE7AC9300BD7A98 /* main.m */,
 			);
 			path = ZGTwoSideView;
+			sourceTree = "<group>";
+		};
+		23C016281FE7ACD800BD7A98 /* SideView */ = {
+			isa = PBXGroup;
+			children = (
+				23C016291FE7ACF700BD7A98 /* ZGTwoSideView.h */,
+				23C0162A1FE7ACF700BD7A98 /* ZGTwoSideView.m */,
+			);
+			path = SideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23C016171FE7AC9300BD7A98 /* ViewController.m in Sources */,
+				23C0162B1FE7ACF700BD7A98 /* ZGTwoSideView.m in Sources */,
 				23C016221FE7AC9300BD7A98 /* main.m in Sources */,
 				23C016141FE7AC9300BD7A98 /* AppDelegate.m in Sources */,
 			);
